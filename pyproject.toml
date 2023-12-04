@@ -16,6 +16,9 @@ python = "^3.11"
 ruff = "0.1.7"
 mypy = "1.7.1"
 
+[tool.poetry.group.test.dependencies]
+pytest = "7.4.3"
+
 # ruff
 
 [tool.ruff]
