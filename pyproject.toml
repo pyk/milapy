@@ -14,6 +14,9 @@ python = "^3.11"
 
 [tool.poetry.group.dev.dependencies]
 ruff = "0.1.7"
+mypy = "1.7.1"
+
+# ruff
 
 [tool.ruff]
 select = ["E", "F", "I", "B", "PIE"]
@@ -21,3 +24,14 @@ ignore = ["B904", "B028"]
 
 [tool.ruff.isort]
 combine-as-imports = true
+
+# mypy
+
+[tool.mypy]
+ignore_missing_imports = true
+strict = true
+
+[[tool.mypy.overrides]]
+module = "tests.*"
+disallow_untyped_defs = false
+check_untyped_defs = true
