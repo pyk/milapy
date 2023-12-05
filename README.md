@@ -15,6 +15,16 @@ pip install milapy
 Now, let's get started:
 
 ```sh
->> import milapy
->> milapy.get_block_number()
+>>> from milapy import Chain
+>>> mainnet = Chain(id=1)
+>>> mainnet.get_block_number()
+18719286
 ```
+
+## Acknowledgements
+
+milapy were inspired by or directly modified from many sources, primarily:
+
+- [viem](https://viem.sh/)
+- [web3.py](https://web3py.readthedocs.io/en/stable/)
+- [ethers.js](https://docs.ethers.org/v5/)
