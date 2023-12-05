@@ -3,3 +3,7 @@
 .mypy_cache
 __pycache__
 .pytest_cache
+dist
+node_modules
+docs/.vitepress/cache
+.DS_Store

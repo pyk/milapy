@@ -1,0 +1,15 @@
+{
+  "name": "milapy.dev",
+  "description": "Milapy documentation site",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
+    "format:check": "prettier --check .",
+    "format:fix": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "3.1.0",
+    "vitepress": "1.0.0-rc.31"
+  }
+}
