@@ -1,4 +1,4 @@
-name: milapy
+name: package
 
 on:
   push:
