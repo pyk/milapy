@@ -1,15 +1,18 @@
 import time
 from functools import lru_cache
+from typing import Optional
 
 import httpx
 
 
-def get_ttl_hash(ms=5_000):
+def get_ttl_hash(ms: int = 5_000) -> int:
     return round((time.time() * 1000) / ms)
 
 
 @lru_cache()
-def get_block_number(http_client: httpx.Client, ttl_hash=None):
+def get_block_number(
+    http_client: httpx.Client, ttl_hash: Optional[int] = None
+) -> int:
     payload = {
         "method": "eth_blockNumber",
         "params": [],
@@ -26,7 +29,7 @@ class Chain:
         self.id = id
         self.http_client = httpx.Client()
 
-    def get_block_number(self, cache_ttl=5_000) -> int:
+    def get_block_number(self, cache_ttl: int = 5_000) -> int:
         return get_block_number(
             http_client=self.http_client, ttl_hash=get_ttl_hash(ms=cache_ttl)
         )
