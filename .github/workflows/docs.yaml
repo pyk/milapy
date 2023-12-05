@@ -22,5 +22,6 @@ jobs:
         with:
           node-version: "21.2.0"
           cache: "pnpm"
+          cache-dependency-path: "**/pnpm-lock.yaml"
       - run: pnpm install
       - run: pnpm format:check
