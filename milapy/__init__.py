@@ -1,3 +1,3 @@
-from ._client import Client
+from ._chain import Chain
 
-__all__ = ["Client"]
+__all__ = ["Chain"]
