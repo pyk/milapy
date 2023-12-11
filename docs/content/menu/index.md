@@ -2,6 +2,7 @@
 headless: true
 ---
 
-- **Example Site**
+- [Chain]({{< relref "/docs/chain" >}})
 
-- **Shortcodes**
+- **Block**
+- [get_block_number]({{< relref "/docs/blocks/get_block_number" >}})
