@@ -1,0 +1,12 @@
+baseURL = "https://milapy.dev"
+languageCode = "en-us"
+title = "Milapy"
+theme = "hugo-book"
+
+[params]
+BookTheme = "light"
+BookLogo = "logo.png"
+BookMenuBundle = "/menu"
+BookRepo = "https://github.com/pyk/milapy"
+BookEditPath = "edit/main/docs"
+BookDateFormat = "January 2, 2006"
