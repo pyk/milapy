@@ -1,0 +1,29 @@
+/*
+:root {
+  --bg: #000000;
+  --accent-bg: #0d0707;
+  --border: #614721;
+  --text: #d2d2d2;
+  --text-light: #888888;
+  --accent-light: #ffc57b;
+  --header: #b5aea8;
+  --accent: #ff9ffb;
+  --marked: #ff9ffb;
+  --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  --keyword: #ff7d67;
+
+  --body-background: var(--bg);
+  --body-font-color: var(--text);
+}
+*/
+
+.markdown h1,
+.markdown h2 {
+  font-weight: bold;
+}
+
+.book-brand img {
+  height: 1.5em;
+  width: auto !important;
+  margin-inline-end: 0.5rem;
+}

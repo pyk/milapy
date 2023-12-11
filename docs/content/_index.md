@@ -1,13 +1,7 @@
 ---
-layout: doc
-title: "Milapy Documentation"
-description:
-  "Simple & extensible Python 3 interface designed for Ethereum and various
-  EVM-based chains"
-titleTemplate: false
-ogImage: "images/welcome.png"
-
-next: false
+title: Milapy — Python 3 interface for Ethereum
+description: Simple Python 3 interface designed for Ethereum and various EVM-based chains
+type: docs
 ---
 
 # Milapy
