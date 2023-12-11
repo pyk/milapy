@@ -4,21 +4,15 @@ description: Simple Python 3 interface designed for Ethereum and various EVM-bas
 type: docs
 ---
 
-# Milapy
+# Milapy (Alpha)
 
-::: warning
+_Milapy is in active development_
 
-Milapy is in active development
-
-:::
-
-Milapy is a simple & extensible Python 3 interface designed for Ethereum and
-various EVM-based chains. It offers a command-line interface, supports multiple
+Milapy is a simple Python 3 interface designed for Ethereum and various
+EVM-based chains. It offers a command-line interface, supports multiple
 chains, and provides synchronous and asynchronous APIs.
 
 ## Installation
-
-::: code-group
 
 ```bash [pip]
 pip install milapy
@@ -32,6 +26,6 @@ pipx install milapy
 poetry add milapy
 ```
 
-:::
-
 ## Quick start
+
+_TODO(pyk): add quick start_

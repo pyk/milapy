@@ -1,33 +1,22 @@
 ---
 title: get_block_number
+description: Returns the block number of the most recent block on specified Chain.
 ---
 
 # get_block_number
 
 Returns the block number of the most recent block on specified
-[Chain](../chain.md).
+[Chain](/docs/chain).
 
 ## Usage
 
-::: code-group
-
-```python [sync.py]
+```python
 from milapy import Chain
 
 mainnet = Chain(id=1)
 block_number = mainnet.get_block_number()
 block_number # 18719286
 ```
-
-```python [async.py]
-from milapy.aio import Chain
-
-mainnet = Chain(id=1)
-block_number = mainnet.get_block_number()
-block_number # 18719286
-```
-
-:::
 
 ## Returns
 
@@ -40,7 +29,7 @@ The function returns an integer representing the block number.
 ### cache_ttl (optional)
 
 - **Type**: `int`
-- **Default**: [Chain's `cache_ttl`](../chain.md#cache-ttl-optional)
+- **Default**: [Chain's `cache_ttl`](/docs/chain/#cache_ttl-optional)
 
 The `cache_ttl` parameter is an optional integer that determines the time, in
 milliseconds, for which the cached block number will be stored in memory.
