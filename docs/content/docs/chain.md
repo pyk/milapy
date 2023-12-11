@@ -1,51 +1,18 @@
 # Chain
 
-`Chain` is a python class. Chain object have access to JSON-RPC API methods such
-as retrieving block numbers, transactions, reading from smart contracts, etc
+_TODO(pyk): add docs_
 
 ## Import
 
-::: code-group
-
-```python [sync.py]
+```python
 from milapy import Chain
 ```
-
-```python [async.py]
-from milapy.aio import Chain
-```
-
-:::
 
 ## Usage
 
 Initialize new Chain object with your desired chain ID:
 
-::: code-group
-
-```python [sync.py]
-from milapy import Chain
-```
-
-```python [async.py]
-from milapy.aio import Chain
-```
-
-:::
-
-Then you can query the chain data:
-
-::: code-group
-
-```python [sync.py]
-as
-```
-
-```python [async.py]
-sa
-```
-
-:::
+_TODO(pyk): add docs_
 
 ## Parameters
 
