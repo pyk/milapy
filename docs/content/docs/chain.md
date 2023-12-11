@@ -26,9 +26,22 @@ The chain id.
 mainnet = Chain(id=1)
 ```
 
+### rpc_url (optional)
+
+- **Type**: `Optional[str]`
+- **Default**: `None`
+
+Common chains, such as Ethereum, will have a default RPC URL. Otherwise, you
+need to specify the `rpc_url` manually if the default does not exist.
+
+```python
+mainnet = Chain(id=1)
+mainnet = Chain(id=1, rpc_url="https://eth-mainnet.g.alchemy.com/v2/...")
+```
+
 ### cache_ttl (optional)
 
-- **Type**: `int`
+- **Type**: `Optional[int]`
 - **Default**: `5_000`
 
 The `cache_ttl` parameter determines the time, in milliseconds, for which the
